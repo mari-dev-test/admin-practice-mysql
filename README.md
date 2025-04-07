@@ -36,12 +36,14 @@
    - username: root | password: superpass
    - username: user | password: user123
    - База данных: admin_practice
-**phpMyAdmin**:
+   
+**phpMyAdmin:**
    - username: root | password: rootpass
 
 ## Подключение к БД
 Чтобы подключить к БД через терминал, выполните следующую команду:
 **root:**
 - ```docker exec -it admin-practice-mysql mysql -u root -p superpass admin_practice```
+
 **user:**
 - ```docker exec -it admin-practice-mysql mysql -u user -p user123 admin_practice```
