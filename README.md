@@ -52,12 +52,12 @@
 
 ## Данные для подключения к БД
 **MySQL**:
-   - username: root | password: superpass
-   - username: user | password: user123
-   - База данных: admin_practice
+   - username: ```root``` | password: ```superpass```
+   - username: ```user``` | password: ```user123```
+   - База данных: ```admin_practice```
 
 **phpMyAdmin:**
-   - username: root | password: rootpass
+   - username: ```root``` | password: ```superpass```
 
 ## Подключение к БД
 Чтобы подключить к БД через терминал, выполните следующую команду:
