@@ -17,9 +17,9 @@
    - phpMyAdmin: [http://localhost:8080](http://localhost:8080)
 
 ## Подключение
-MySQL:
+- *MySQL*:
    - username: root | password: superpass
    - username: user | password: user123
    - База данных: admin_practice
-phpMyAdmin:
+- *phpMyAdmin*:
    - username: root | password: rootpass
