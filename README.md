@@ -52,7 +52,7 @@
 
 ```docker-compose up -d```
 
-4. Проверьте, что всё работает:
+5. Проверьте, что всё работает:
 
 ```docker ps```
 
@@ -69,10 +69,10 @@
 Чтобы подключить к БД через терминал, выполните следующую команду:
 
 **root:**
-- ```docker exec -it admin-practice-mysql mysql -u root -p superpass admin_practice```
+- ```docker exec -it mysql_admin mysql -u root -psuperpass admin_practice```
 
 **user:**
-- ```docker exec -it admin-practice-mysql mysql -u user -p user123 admin_practice```
+- ```docker exec -it mysql_admin mysql -u user -puser123 admin_practice```
 
 ## Задания
 Файл с практическими заданиями для работы с MySQL находится в каталоге tasks/ и называется tasks.md. В нем содержится список практических задач по администрированию MySQL, включая создание пользователей, управление привилегиями, бэкапами и другие задачи для закрепления навыков работы с MySQL.
