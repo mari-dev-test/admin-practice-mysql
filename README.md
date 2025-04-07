@@ -6,8 +6,9 @@
 
 ## Установка Docker и Docker Compose
 1. **Обновите репозитории пакетов:**
-```sudo apt update```
-
+- ```sudo apt update```
+2. **Установите Docker:**
+- ```sudo apt install -y docker.io```
 ## Запуск
 1. Клонируйте репозиторий
 
